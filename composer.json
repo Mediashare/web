@@ -1,0 +1,22 @@
+{
+    "name": "kzu/web",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "require": {
+        "kzu/http": "*",
+        "twig/twig": "^3.2",
+        "kzu/storage": "*"
+    },
+    "authors": [
+        {
+            "name": "MarquandT",
+            "email": "thibault@marquand.pro"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kzu\\Web\\": "src/"
+        }
+    }
+}
